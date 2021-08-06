@@ -1,0 +1,823 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Activation_Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Activation_Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Annotated_Dataset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Annotated_Dataset">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#BERT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#BERT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Pretrained_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#BiLSTM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#BiLSTM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#LSTM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#CBoW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#CBoW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Word2Vec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#CCG_Parsing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#CCG_Parsing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Syntactic_Parsing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Neural_Net"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Conll2002 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Conll2002">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#NER_Dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Conll2003 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Conll2003">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#NER_Dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Consistuency_Parsing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Consistuency_Parsing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Syntactic_Parsing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Convolutional_Neural_Network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Convolutional_Neural_Network">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Coreference_Resolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Coreference_Resolution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Relation_Extraction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Cross_Entropy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Cross_Entropy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Loss_Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#DIstant_Supervision_Relation_Extraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#DIstant_Supervision_Relation_Extraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Link_Prediction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Dataset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Dataset"/>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Dependency_Parsing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Dependency_Parsing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Syntactic_Parsing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Dictionary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Dictionary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Terminology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Dictionary_Expansion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Dictionary_Expansion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Entity_Level"/>
+        <rdfs:label xml:lang="en">Dictionary Expansion</rdfs:label>
+        <rdfs:label xml:lang="en">Set Expansion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Disease_Name_Normalization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Disease_Name_Normalization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Entity_Linking"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Distant_Supervision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Distant_Supervision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Unsupervised"/>
+        <rdfs:label xml:lang="en">Distant Supervision</rdfs:label>
+        <rdfs:label xml:lang="en">Weakly Supervised</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Distant_Supervision_Relation_Extraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Distant_Supervision_Relation_Extraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Link_Prediction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Domain_Adaptation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Domain_Adaptation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Experimental_Setting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Entity_Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Entity_Level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Entity_Linking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Entity_Linking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Span_Recognition"/>
+        <rdfs:label xml:lang="en">Entity Linking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Entity_Typing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Entity_Typing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Span_Recognition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Exact_Match -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Exact_Match">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Rule_Based"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Experimental_Setting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Experimental_Setting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Few-Shot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Few-Shot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Experimental_Setting"/>
+        <rdfs:label xml:lang="en">Few-Shot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Fine-Grained_Named_Entity_Recognition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Fine-Grained_Named_Entity_Recognition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Named_Entity_Recognition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Fine_Grained_Entity_Typing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Fine_Grained_Entity_Typing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Entity_Typing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#FreeBase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#FreeBase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Knowledge_Base/Thesaurus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#GENIA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#GENIA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#NER_Dataset"/>
+        <rdfs:label xml:lang="en">GENIA</rdfs:label>
+        <rdfs:label xml:lang="en">JNLPBA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#GRU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#GRU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#RNNs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Generative_Adversarial_Networks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Generative_Adversarial_Networks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Probabilistic_Neural_Net"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Genration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Genration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#GloVe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#GloVe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Word_Embedding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Hate_Speech_Detection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Hate_Speech_Detection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Hearst_Pattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Hearst_Pattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Pattern_Based"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Hinge_Loss -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Hinge_Loss">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Loss_Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Hypernym_Detection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Hypernym_Detection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Link_Prediction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Keyword_Extraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Keyword_Extraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Span_Recognition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Keyword_Generation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Keyword_Generation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Genration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Knowledge_Base_Alignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Knowledge_Base_Alignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Entity_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Knowledge_Base_Completion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Knowledge_Base_Completion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Entity_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#LSTM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#LSTM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#RNNs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Link_Prediction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Link_Prediction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Knowledge_Base_Completion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Loss_Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Loss_Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#MLP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#MLP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Machine_Translation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Machine_Translation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Genration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Method"/>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#NER_Dataset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#NER_Dataset">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Annotated_Dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#NP_Chunking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#NP_Chunking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Consistuency_Parsing"/>
+        <rdfs:label xml:lang="en">NP Chunking</rdfs:label>
+        <rdfs:label xml:lang="en">Shallow Parsing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Named_Entity_Recognition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Named_Entity_Recognition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Span_Detection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Network">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Neural_Net -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Neural_Net">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Method"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#POS_Tagging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#POS_Tagging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Parsing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Parsing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Parsing_Dataset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Parsing_Dataset">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Annotated_Dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Pattern_Based -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Pattern_Based">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Rule_Based"/>
+        <rdfs:label xml:lang="en">Regular Expression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Pen_Tree_Bank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Pen_Tree_Bank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Parsing_Dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Predicate_Argument_Structure_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Predicate_Argument_Structure_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Semantic_Parsing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Pretrained_Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Pretrained_Model">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Token_Embedder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Probabilistic_Neural_Net -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Probabilistic_Neural_Net">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Neural_Net"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#RNN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#RNN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#RNNs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#RNNs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#RNNs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Raw_Corpus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Raw_Corpus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#ReLU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#ReLU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Activation_Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Reading_Comprehension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Reading_Comprehension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Span_Recognition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Relation_Extraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Relation_Extraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Rule_Based -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Rule_Based">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Method"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Semantic_Indexing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Semantic_Indexing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Semantic_Parsing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Semantic_Parsing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Parsing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Sentiment_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Sentiment_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Span_Detection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Span_Detection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Span_Recognition"/>
+        <rdfs:label xml:lang="en">NE Recognition</rdfs:label>
+        <rdfs:label xml:lang="en">NER</rdfs:label>
+        <rdfs:label xml:lang="en">Named Entity Recognition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Span_Recognition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Span_Recognition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Statistical_Based -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Statistical_Based">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Method"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Statistical_Topic_Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Statistical_Topic_Model">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Statistical_Based"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Summarization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Summarization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Genration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Supervised -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Supervised">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Experimental_Setting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Synonym_Expansion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Synonym_Expansion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Link_Prediction"/>
+        <rdfs:label xml:lang="en">Synonym Expansion</rdfs:label>
+        <rdfs:label xml:lang="en">Term Normalization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Syntactic_Parsing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Syntactic_Parsing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Parsing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Task -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Task"/>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Taxonomy_Induction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Taxonomy_Induction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Entity_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Terminology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Terminology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Dataset"/>
+        <rdfs:label xml:lang="en">Terminological Resource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Classification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Classification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Token_Embedder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Token_Embedder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Neural_Net"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Transformer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Transformer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Unsupervised -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Unsupervised">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Experimental_Setting"/>
+        <rdfs:label xml:lang="en">Unsupervised</rdfs:label>
+        <rdfs:label xml:lang="en">Zero-Shot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Variational_Auto_Encoder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Variational_Auto_Encoder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Probabilistic_Neural_Net"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Word2Vec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Word2Vec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Word_Embedding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Word_Embedding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Word_Embedding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Token_Embedder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Word_Segmentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Word_Segmentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Word_Sense_Disambiguation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Word_Sense_Disambiguation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Text_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#XLNet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#XLNet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Pretrained_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#skip-gram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#skip-gram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Word2Vec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Knowledge_Base/Thesaurus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Knowledge_Base/Thesaurus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/takayoshi-s/ontologies/2021/7/untitled-ontology-2#Terminology"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
